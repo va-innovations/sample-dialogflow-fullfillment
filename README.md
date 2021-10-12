@@ -7,7 +7,7 @@ It does not include authentication, database layer or any other features beyond 
 This API uses the following dependencies:
 - **dialogflow-fulfillment** for simpler way of receiving and returning requests to Dialogflow
 - **express** for web application functionality
-- **axios** for performing requests outside the API
+- **axios** for performing http requests
 - **cors** for enabling cross origin resource sharing
 
 ### Usage
@@ -31,3 +31,4 @@ The deployment steps are as follows:
     git push heroku master
 
 Your application should be deployed now.
+Any errors can be viewed in the application logs in Heroku.
